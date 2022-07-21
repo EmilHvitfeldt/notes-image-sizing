@@ -1,0 +1,24 @@
+---
+format: revealjs
+---
+
+```{r}
+library(ggplot2)
+```
+
+## Speaker Notes
+
+```{r}
+ggplot(mtcars, aes(mpg, disp)) +
+  geom_point()
+```
+
+:::notes
+:::
+
+## No Speaker Notes
+
+```{r}
+ggplot(mtcars, aes(mpg, disp)) +
+  geom_point()
+```
