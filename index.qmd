@@ -2,13 +2,11 @@
 format: revealjs
 ---
 
-```{r}
-library(ggplot2)
-```
-
 ## Speaker Notes
 
 ```{r}
+library(ggplot2)
+
 ggplot(mtcars, aes(mpg, disp)) +
   geom_point()
 ```
